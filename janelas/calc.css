@@ -1,43 +1,73 @@
-#btnCAL{
-    margin-top: -13px;
+#calcFundo {
+    background-color: #919296;
+    padding: 20px;
+    border-radius: 15px;
+    width: 320px;
+    margin: 100px auto; 
+    margin-top: 10px;
 }
 
-#display{
-    margin-top: 20px;
+
+#display {
     border: 2px solid black;
-    width: 161px;
-    height: 18px;
     border-radius: 7px;
-    padding: 3px;
+    background-color: rgb(0, 192, 0);
+    height: 50px;
+    font-size: 32px;
     text-align: right;
-    background: linear-gradient(180deg, rgb(146, 212, 146), rgb(108, 218, 113));
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
 }
 
-.botaogrande{
-    width: 40px;
-    height: 40px;
-    background-color: rgb(209, 209, 209);
-    font-size: 14px;
-    margin-top: 4px;
+.botaogrande {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
     border-radius: 7px;
+    border: none;
+    background-color: #d1d1d1;
+    transition:0.3s;
+    margin-top: 10px;
+    margin-left: 5px;
 }
 
-#botaomais{
-    width: 40px;
-    height: 84px;
-    position: absolute;
-    margin-left: 4px;
-    background-color: rgb(209, 209, 209);
-    margin-top: 4px;
-    border-radius: 8px;
+.botaogrande:hover {
+    background-color: rgb(192, 192, 192);
 }
 
-.ACCE{
+
+.ACCE {
     background-color: rgb(248, 141, 0);
-    width: 40px;
-    height: 40px;
-    font-size: 14px;
-    margin-top: 4px;
+    color: white;
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
     border-radius: 7px;
+    border: none;
+    margin-left: 5px;
 }
 
+#botaozero {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    background-color: #d1d1d1;
+    transition:0.3s;
+    width: 150px;
+    margin-left: 5px;
+   
+}
+
+#botaozero:hover{
+    transition:0.3s;
+    background-color: rgb(192, 192, 192);
+}
+
+.ACCE:hover {
+    transition:0.3s;
+    background-color: rgb(207, 125, 18);
+}
